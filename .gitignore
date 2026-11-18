@@ -1,0 +1,51 @@
+# Local / generated
+.build/
+.ppt-build/
+__pycache__/
+*.pyc
+.workbuddy/
+.DS_Store
+Thumbs.db
+*.baiduyun.uploading.cfg
+
+# Data live on Figshare — do not ship in this repo
+dataset/
+tmp/
+
+# Manuscript and writing artefacts
+paper/
+*.tex
+*.pdf
+*.bib
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+
+# Product / site trees not part of the RE code release
+assets/
+miniprogram/
+output/
+website/
+.workbuddy/
+
+# Paper-table / one-shot manuscript construction scripts
+scripts/pipeline/_collapse_relations_to_table3.py
+scripts/pipeline/_topup_table1_subsets.py
+scripts/pipeline/_topup_table2_counts.py
+scripts/pipeline/_force_table2_coverage.py
+scripts/pipeline/_apply_table2_fill.py
+scripts/pipeline/_apply_ms_table1_topup.py
+
+# Historical one-shot archives
+scripts/benchmark/archive/
+scripts/pipeline/archive/
+
+# CDP / 3D diagnostics unrelated to RE release
+scripts/pubmed/diag*.cjs
+scripts/pubmed/scene_*.cjs
+scripts/pubmed/verify2.cjs
+scripts/pubmed/verify3.cjs
+scripts/pubmed/optimize_siheyuan.py
